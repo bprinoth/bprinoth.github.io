@@ -2707,33 +2707,33 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: black;
+			background-color: rgb(255, 255, 255);
 
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: black;
+			background-color: rgb(255, 255, 255);
 
 		}
 
 		.spotlight:nth-child(3) {
-			background-color: black;
+			background-color: white;
 		}
 
 		.spotlight:nth-child(4) {
-			background-color: black;
+			background-color: white;
 		}
 
 		.spotlight:nth-child(5) {
-			background-color: rgba(0, 0, 0, 0.375);
+			background-color: white;
 		}
 
 		.spotlight:nth-child(6) {
-			background-color: rgba(0, 0, 0, 0.45);
+			background-color: white;
 		}
 
 		.spotlight:nth-child(7) {
-			background-color: rgba(0, 0, 0, 0.525);
+			background-color: white;
 		}
 
 		.spotlight:nth-child(8) {
@@ -2983,21 +2983,21 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background-color: rgb(255, 255, 255, 1);
-			color:black;
+			background-color: rgb(0, 0, 0);
+			color:rgb(255, 255, 255);
 		}
 
 		.wrapper.style3 {
-			background-color: rgba(0, 21, 91, 0.5);
-			color: rgb(255, 255, 255);
+			background-color: rgb(255, 255, 255);
+			color: rgb(0, 0, 0);
 		}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
-				color: #ffffff;
+				color: #000000;
 			}
 
 			.wrapper.style3 h2, .wrapper.style3 h3, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6 {
-				color: #ffffff;
+				color: black;
 			}
 
 			.wrapper.style3 hr {
