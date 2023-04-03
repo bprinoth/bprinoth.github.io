@@ -2808,6 +2808,8 @@ input, select, textarea {
 
 				.wrapper > .inner {
 					width: 80%;
+					margin: 0 auto;
+					background-color: rgba(0,0,0, 0.8);
 					
 				}
 
@@ -2817,6 +2819,8 @@ input, select, textarea {
 
 				.wrapper > .inner {
 					width: 80%;
+					margin: 0 auto;
+					background-color: rgba(0,0,0, 0.8);
 				}
 
 			}
@@ -3794,11 +3798,13 @@ input, select, textarea {
 			#cta .inner {
 				display: block;
 				text-align: center;
+				background-color: rgba(0,0,0,0);
 			}
 
 				#cta .inner header {
 					padding-right: 0;
 					width: 100%;
+					background-color: rgba(0,0,0, 0);
 				}
 
 				#cta .inner .actions {
@@ -3814,6 +3820,7 @@ input, select, textarea {
 
 			#cta .inner .actions {
 				max-width: none;
+				background-color: rgba(0,0,0, 0.8);
 			}
 
 		}
@@ -3987,7 +3994,15 @@ input, select, textarea {
 	}
 
 	body.is-mobile.landing #page-wrapper {
-		background: none;
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets.png");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets.png");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets.png");
+		background-image: linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets.png");
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding-top: 0;
 	}
 
 	body.is-mobile.landing #banner,
@@ -3996,6 +4011,7 @@ input, select, textarea {
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/artistic-impression-of-planets.png");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/artistic-impression-of-planets.png");
 		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/artistic-impression-of-planets.png");
+		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
