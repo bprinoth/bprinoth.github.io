@@ -8015,6 +8015,7 @@ input, select, textarea {
 	}
 
 	body.is-mobile.landing #page-wrapper {
+		width:100%;
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets_mobile.png");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets_mobile.png");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets_mobile.png");
@@ -8022,12 +8023,13 @@ input, select, textarea {
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: 100%;
 		padding-top: 0;
 	}
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
+		width:100%;
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets_mobile.png");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets_mobile.png");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets.png_mobile");
@@ -8035,7 +8037,7 @@ input, select, textarea {
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: 100%;
 	}
 
 	body.is-mobile.landing #footer {
