@@ -8032,8 +8032,8 @@ input, select, textarea {
 		width:100%;
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets_mobile.png");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets_mobile.png");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets.png_mobile");
-		background-image: linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets.png_mobile");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets_mobile.png");
+		background-image: linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets_mobile.png");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
