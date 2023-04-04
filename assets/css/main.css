@@ -3894,7 +3894,7 @@ input, select, textarea {
 		}
 
 	body.is-mobile #main > header {
-		background-attachment: scroll;
+		background-attachment: fixed;
 	}
 
 /* Footer */
@@ -4000,7 +4000,7 @@ input, select, textarea {
 		background-image: linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets_mobile.png");
 		background-attachment: fixed;
 		background-position: center center;
-		background-repeat: no-repeat;
+		background-repeat: repeat;
 		background-size: cover;
 		padding-top: 0;
 	}
@@ -4013,7 +4013,7 @@ input, select, textarea {
 		background-image: linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets.png_mobile");
 		background-attachment: fixed;
 		background-position: center center;
-		background-repeat: no-repeat;
+		background-repeat: repeat;
 		background-size: cover;
 	}
 
