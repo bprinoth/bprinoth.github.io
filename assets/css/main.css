@@ -3829,10 +3829,10 @@ input, select, textarea {
 
 	#main > header {
 		padding: 12em 0 10em 0 ;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets.png");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets.png");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets.png");
-		background-image: linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets.png");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet.png");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet.png");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet.png");
+		background-image: linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet.png");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3978,10 +3978,10 @@ input, select, textarea {
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets.png");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets.png");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets.png");
-		background-image: linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets.png");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet.png");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet.png");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet.png");
+		background-image: linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet.png");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3994,10 +3994,10 @@ input, select, textarea {
 	}
 
 	body.is-mobile.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets_mobile.png");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets_mobile.png");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets_mobile.png");
-		background-image: linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets_mobile.png");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet_mobile.png");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet_mobile.png");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet_mobile.png");
+		background-image: linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet_mobile.png");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: repeat;
@@ -4007,10 +4007,10 @@ input, select, textarea {
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets_mobile.png");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets_mobile.png");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets.png_mobile");
-		background-image: linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets.png_mobile");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet_mobile.png");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet_mobile.png");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet.png_mobile");
+		background-image: linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet.png_mobile");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: repeat;
@@ -7850,10 +7850,10 @@ input, select, textarea {
 
 	#main > header {
 		padding: 12em 0 10em 0 ;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets.png");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets.png");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets.png");
-		background-image: linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets.png");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet.png");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet.png");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet.png");
+		background-image: linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet.png");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -7999,10 +7999,10 @@ input, select, textarea {
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets.png");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets.png");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets.png");
-		background-image: linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets.png");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet.png");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet.png");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet.png");
+		background-image: linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet.png");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -8016,10 +8016,10 @@ input, select, textarea {
 
 	body.is-mobile.landing #page-wrapper {
 		width:100%;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets_mobile.png");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets_mobile.png");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets_mobile.png");
-		background-image: linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets_mobile.png");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet_mobile.png");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet_mobile.png");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet_mobile.png");
+		background-image: linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet_mobile.png");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -8030,10 +8030,10 @@ input, select, textarea {
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
 		width:100%;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets_mobile.png");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets_mobile.png");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets_mobile.png");
-		background-image: linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-planets_mobile.png");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet_mobile.png");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet_mobile.png");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet_mobile.png");
+		background-image: linear-gradient(top, rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../../images/artistic-impression-of-an-exoplanet_mobile.png");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
