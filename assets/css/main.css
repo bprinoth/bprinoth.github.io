@@ -1455,6 +1455,7 @@ body.is-preload #bg:before {
 
 		@media screen and (max-width: 736px) {
 
+
 			#header > * {
 				margin-top: 2rem;
 			}
@@ -1480,6 +1481,7 @@ body.is-preload #bg:before {
 
 			#header .content p {
 				line-height: 1.875;
+				
 			}
 
 		}
