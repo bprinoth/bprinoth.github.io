@@ -47,6 +47,7 @@
 								<!-- <li><a href="elements.html">Elements</a></li> -->
 								<li><a href="#news">News</a></li>
 								<li><a href="#research">Research</a></li>
+								<li><a href="#code">Code</a></li>
 								<li><a href="#teaching">Teaching</a></li>
 								<li><a href="#outreach">Outreach</a></li>
 								<li><a href="#getintouch">Get in touch</a></li>
@@ -401,6 +402,26 @@
 
 						<!-- CV -->
 						
+
+						<!-- Code -->
+						<article id="code">
+							<h2 class="major">Code</h2>
+							<h3>ExoAtmoSim</h3>
+							<p><strong>From planetary atmospheres to simulated high-resolution observations.</strong></p>
+							<p>ExoAtmoSim is my open-source Python framework for modelling exoplanet atmospheres and investigating how their spectral signatures appear in high-resolution spectroscopic observations. The aim is to bridge atmospheric physics and chemistry with instrument-aware observation simulations in a reproducible workflow.</p>
+							<h3 class="major">What it does</h3>
+							<h4>Atmospheric chemistry</h4>
+							<p>ExoAtmoSim interfaces with FastChem to calculate equilibrium abundances along a configurable temperature-pressure profile, including atoms, ions, molecules, free electrons, and H&#8722;.</p>
+							<h4>Transmission spectroscopy</h4>
+							<p>With POSEIDON, ExoAtmoSim calculates atmospheric transmission spectra. The workflow supports atomic and molecular opacity as well as H&#8722; continuum absorption, linking the computed composition to observable spectral features.</p>
+							<h4>Instrument-aware synthetic observations</h4>
+							<p>Instrument wavelength coverage and spectral orders guide the model calculations. A lightweight mock-observation backend can generate time-series spectra with orbital Doppler shifts and configurable noise, including an initial ESPRESSO workflow.</p>
+							<h4>Reproducible, planet-specific workflows</h4>
+							<p>A single human-readable configuration file holds each planet's parameters and simulation settings, helping keep atmosphere calculations and observation preparation consistent.</p>
+							<h3 class="major">In development</h3>
+							<p>I am extending ExoAtmoSim to connect POSEIDON spectra with the full <code>tayph.mock</code> observation simulator, including instrument-response files, realistic stellar spectra, and eccentric-orbit modelling. These integrations are under active development and validation, rather than part of a fully validated end-to-end observing backend.</p>
+							<p><a href="https://github.com/bprinoth" target="_blank" rel="noopener noreferrer" class="button icon brands fa-github">My GitHub projects</a></p>
+						</article>
 
 						<!-- Teaching -->
 						<article id="teaching">
