@@ -419,8 +419,9 @@
 							<h4>Reproducible, planet-specific workflows</h4>
 							<p>A single human-readable configuration file holds each planet's parameters and simulation settings, helping keep atmosphere calculations and observation preparation consistent.</p>
 							<h3 class="major">In development</h3>
-							<p>I am extending ExoAtmoSim to connect POSEIDON spectra with the full <code>tayph.mock</code> observation simulator, including instrument-response files, realistic stellar spectra, and eccentric-orbit modelling. These integrations are under active development and validation, rather than part of a fully validated end-to-end observing backend.</p>
-							<p><a href="https://github.com/bprinoth" target="_blank" rel="noopener noreferrer" class="button icon brands fa-github">My GitHub projects</a></p>
+							<p>The current foundation release demonstrates an independent, constant-S/N transmission-spectroscopy workflow from planetary parameters through FastChem chemistry and POSEIDON spectra to simulated instrument observations. Supported development wavelength setups include CRIRES+ K, ESPRESSO, IGRINS, IGRINS2, SPIRou, and ANDES; ANDES and the separate provisional ANDES K mode are experimental. Noise is presently prescribed by a constant S/N rather than a calibrated instrument-specific model.</p>
+							<p><strong>In development:</strong> telluric absorption, VIOLA integration, instrument-specific (non-constant) S/N, emission spectroscopy, and petitRADTRANS support. These capabilities are not part of the minimal validated public baseline yet.</p>
+							<p><a href="https://github.com/bprinoth/ExoAtmoSim" target="_blank" rel="noopener noreferrer" class="button icon brands fa-github">ExoAtmoSim on GitHub</a></p>
 						</article>
 
 						<!-- Teaching -->
