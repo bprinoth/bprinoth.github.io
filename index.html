@@ -411,7 +411,7 @@
 							<p>ExoAtmoSim is my open-source Python framework for modelling exoplanet atmospheres and investigating how their spectral signatures appear in high-resolution spectroscopic observations. The aim is to bridge atmospheric physics and chemistry with instrument-aware observation simulations in a reproducible workflow.</p>
 							<h3 class="major">What it does</h3>
 							<h4>Atmospheric chemistry</h4>
-							<p>ExoAtmoSim interfaces with FastChem to calculate equilibrium abundances along a configurable temperature-pressure profile, including atoms, ions, molecules, free electrons, and H&#8722;.</p>
+							<p>ExoAtmoSim uses FastChem for equilibrium abundances and also supports an independently validated development pathway for reading external Kaltenegger/Rugheimer Earth-like temperature-pressure and chemical profiles. The original NASA stellar classification is preserved; profile-template selection is applied only when that alternative chemistry is requested. The Kaltenegger pathway has been demonstrated with POSEIDON and synthetic observations on mantis and is being prepared for the next public code release.</p>
 							<h4>Transmission spectroscopy</h4>
 							<p>With POSEIDON, ExoAtmoSim calculates atmospheric transmission spectra. The workflow supports atomic and molecular opacity as well as H&#8722; continuum absorption, linking the computed composition to observable spectral features.</p>
 							<h4>Instrument-aware synthetic observations</h4>
@@ -420,7 +420,7 @@
 							<p>A single human-readable configuration file holds each planet's parameters and simulation settings, helping keep atmosphere calculations and observation preparation consistent.</p>
 							<h3 class="major">In development</h3>
 							<p>The current foundation release demonstrates an independent, constant-S/N transmission-spectroscopy workflow from planetary parameters through FastChem chemistry and POSEIDON spectra to simulated instrument observations. Supported development wavelength setups include CRIRES+ K, ESPRESSO, IGRINS, IGRINS2, SPIRou, and ANDES; ANDES and the separate provisional ANDES K mode are experimental. Noise is presently prescribed by a constant S/N rather than a calibrated instrument-specific model.</p>
-							<p><strong>In development:</strong> telluric absorption, VIOLA integration, instrument-specific (non-constant) S/N, emission spectroscopy, and petitRADTRANS support. These capabilities are not part of the minimal validated public baseline yet.</p>
+							<p><strong>Next release:</strong> optional Kaltenegger/Rugheimer Earth-like atmosphere profiles (nine stellar templates and four geological epochs, where matching data are available). Their integration has passed a full POSEIDON-to-observation validation on mantis; repository release and third-party data licensing are being finalized. The data provenance is documented at <a href="https://zenodo.org/records/14829587" target="_blank" rel="noopener noreferrer">Zenodo record 14829587</a>.</p><p><strong>In development:</strong> telluric absorption, VIOLA ETC integration, instrument-specific (non-constant) S/N, emission spectroscopy, and petitRADTRANS support. These are not part of the minimal validated public baseline yet.</p>
 							<p><a href="https://github.com/bprinoth/ExoAtmoSim" target="_blank" rel="noopener noreferrer" class="button icon brands fa-github">ExoAtmoSim on GitHub</a></p>
 						</article>
 
