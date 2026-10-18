@@ -407,21 +407,24 @@
 						<article id="code">
 							<h2 class="major">Code</h2>
 							<h3>ExoAtmoSim</h3>
-							<p><strong>From planetary atmospheres to simulated high-resolution observations.</strong></p>
-							<p>ExoAtmoSim is my open-source Python framework for modelling exoplanet atmospheres and investigating how their spectral signatures appear in high-resolution spectroscopic observations. The aim is to bridge atmospheric physics and chemistry with instrument-aware observation simulations in a reproducible workflow.</p>
-							<h3 class="major">What it does</h3>
-							<h4>Atmospheric chemistry</h4>
-							<p>ExoAtmoSim uses FastChem for equilibrium abundances and also supports an independently validated development pathway for reading external Kaltenegger/Rugheimer Earth-like temperature-pressure and chemical profiles. The original NASA stellar classification is preserved; profile-template selection is applied only when that alternative chemistry is requested. The Kaltenegger pathway has been demonstrated with POSEIDON and synthetic observations on mantis and is being prepared for the next public code release.</p>
-							<h4>Transmission spectroscopy</h4>
-							<p>With POSEIDON, ExoAtmoSim calculates atmospheric transmission spectra. The workflow supports atomic and molecular opacity as well as H&#8722; continuum absorption, linking the computed composition to observable spectral features.</p>
-							<h4>Instrument-aware synthetic observations</h4>
-							<p>Instrument wavelength coverage and spectral orders guide the model calculations. A lightweight mock-observation backend can generate time-series spectra with orbital Doppler shifts and configurable noise, including an initial ESPRESSO workflow.</p>
-							<h4>Reproducible, planet-specific workflows</h4>
-							<p>A single human-readable configuration file holds each planet's parameters and simulation settings, helping keep atmosphere calculations and observation preparation consistent.</p>
-							<h3 class="major">In development</h3>
-							<p>The current foundation release demonstrates an independent, constant-S/N transmission-spectroscopy workflow from planetary parameters through FastChem chemistry and POSEIDON spectra to simulated instrument observations. Supported development wavelength setups include CRIRES+ K, ESPRESSO, IGRINS, IGRINS2, SPIRou, and ANDES; ANDES and the separate provisional ANDES K mode are experimental. Noise is presently prescribed by a constant S/N rather than a calibrated instrument-specific model.</p>
-							<p><strong>Next release:</strong> optional Kaltenegger/Rugheimer Earth-like atmosphere profiles (nine stellar templates and four geological epochs, where matching data are available). Their integration has passed a full POSEIDON-to-observation validation on mantis; repository release is being prepared; the third-party profile files will be downloaded by users from Zenodo rather than redistributed with ExoAtmoSim. Users configure the local profile directory in <code>config/site_paths.conf</code>. The data source is <a href="https://zenodo.org/records/14829587" target="_blank" rel="noopener noreferrer">Zenodo record 14829587</a>.</p><p><strong>In development:</strong> telluric absorption, VIOLA ETC integration, instrument-specific (non-constant) S/N, emission spectroscopy, and petitRADTRANS support. These are not part of the minimal validated public baseline yet.</p>
-							<p><strong>Integration requests are welcome.</strong> If you would like ExoAtmoSim to support a particular atmospheric chemistry model, radiative-transfer backend, instrument, or observing workflow, please feel free to contact me through the contact information on this website or open a discussion on GitHub. I would be happy to hear about potential collaborations and useful integrations.</p>
+							<p><strong>From planetary parameters to high-resolution synthetic exoplanet observations.</strong></p>
+							<p>ExoAtmoSim is an open-source Python framework I am developing to bring atmospheric chemistry, radiative-transfer predictions, and spectroscopic observing simulations into a reproducible workflow. It is intended to help researchers explore how an exoplanet's atmospheric signal changes across an observing sequence and across instruments.</p>
+							<h3 class="major">What ExoAtmoSim can do</h3>
+							<h4>Planetary parameters and chemistry</h4>
+							<p>The development pipeline can retrieve planetary and stellar parameters from the NASA Exoplanet Archive and create an editable configuration. It uses FastChem to calculate equilibrium chemistry and generates pressure&ndash;temperature and abundance diagnostics.</p>
+							<h4>Transmission spectra</h4>
+							<p>ExoAtmoSim currently uses POSEIDON to calculate high-resolution planetary transmission spectra, including selected molecular and atomic opacities. The resulting model is exported for the simulated observations.</p>
+							<h4>Independent synthetic observations</h4>
+							<p>The independent observing workflow combines stellar spectra (including PHOENIX), observation scheduling, transit geometry, stellar and planetary Doppler velocities, instrument wavelength sampling and seeded Gaussian noise. The baseline simulations use a user-selected <strong>constant signal-to-noise ratio</strong>; they do not yet reproduce each instrument's detailed detector noise and throughput.</p>
+							<h4>Supported instrument wavelength setups</h4>
+							<p>Development examples have been run for <strong>CRIRES+ K, ESPRESSO, IGRINS, IGRINS2 and SPIRou</strong>. The <strong>ANDES</strong> setup combines the supplied UBV, RIZ and YJH ETC wavelength samples, retaining overlapping wavelengths and using them for wavelength information only. <strong>ANDES_K</strong> is a separate experimental mode with a provisional K-band axis divided into computational segments, not calibrated physical echelle orders.</p>
+							<h4>Reproducible outputs</h4>
+							<p>Each observing realization uses a chosen random seed and stores its effective <code>config</code>, planetary spectrum, spectral-order FITS products, observation metadata and diagnostic figures in a planet- and instrument-specific simulation directory.</p>
+							<h3 class="major">Example workflows</h3>
+							<p><strong>TOI-1842 b:</strong> a demonstrated end-to-end transmission example from NASA parameters through FastChem and POSEIDON to H<sub>2</sub>O-sensitive CRIRES+ K-band observations, including eccentric-orbit velocities. <strong>WASP-189 b:</strong> a development target for high-resolution optical/Fe transmission observations with ESPRESSO. The same constant-S/N observation framework has been exercised with additional instrument wavelength setups.</p>
+							<h3 class="major">What comes next</h3>
+							<p>Active development includes exposure-dependent telluric absorption and humidity sampling, VIOLA integration, instrument-specific and wavelength-dependent S/N, emission spectroscopy, and an additional radiative-transfer backend using petitRADTRANS. These should not yet be considered part of the validated, no-tellurics constant-S/N baseline.</p>
+							<p><strong>Public code status:</strong> the modern modular foundation and documentation are being prepared for release in the GitHub repository. The currently published repository may not yet contain every part of the development version described here.</p>
 							<p><a href="https://github.com/bprinoth/ExoAtmoSim" target="_blank" rel="noopener noreferrer" class="button icon brands fa-github">ExoAtmoSim on GitHub</a></p>
 						</article>
 
